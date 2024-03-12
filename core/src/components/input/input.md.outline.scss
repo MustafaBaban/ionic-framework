@@ -3,12 +3,15 @@
 // Input Fill: Outline
 // ----------------------------------------------------------------
 
-:host(.input-fill-outline) {
+:host {
   --border-color: #{$background-color-step-300};
   --border-radius: 4px;
   --padding-start: 16px;
   --padding-end: 16px;
 
+}
+
+:host(.input-fill-outline) {
   min-height: 56px;
 }
 

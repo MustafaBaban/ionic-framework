@@ -3,13 +3,16 @@
 // Input Fill: Solid
 // ----------------------------------------------------------------
 
-:host(.input-fill-solid) {
-  --background: #{$background-color-step-50};
+:host {
   --border-color: #{$background-color-step-500};
   --border-radius: 4px;
   --padding-start: 16px;
   --padding-end: 16px;
 
+}
+
+:host(.input-fill-solid) {
+  --background: #{$background-color-step-50};
   min-height: 56px;
 }
 
